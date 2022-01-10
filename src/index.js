@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { render } from 'react-dom';
+
 import App from './App';
 
 
-ReactDOM.render(
+const rootElemet = document.getElementById("root");
 
-    <App />
+render(
 
-  document.getElementById('root')
+    <App />,
+    rootElemet
+
+ 
 );
 
 
