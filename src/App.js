@@ -1,9 +1,10 @@
-<<<<<<< HEAD
 import { BrowserRouter as  Router,Route, Link,Routes } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 
+
+import './App.css';
 
 
 
@@ -33,7 +34,6 @@ function App() {
 
 
 </div>
-
 
   );
 }
